@@ -10,12 +10,17 @@ synced sheet data and the workflow all stay in the private repo.
 
 | File | Use | Intrinsic | Displayed at |
 |---|---|---|---|
+| `logo-sliide-x-tads-white.png` | Combined lockup, centred in the header | 512×53 | 240×25 |
 | `logo-sliide-white.png` | Sliide, on the dark/magenta header bar | 256×58 | 128×29 |
 | `logo-tads-white.png` | T-Mobile Advertising Solutions, dark bar | 280×64 | 140×32 |
 | `logo-sliide-ink.png` | Sliide, on a light header bar | 256×58 | 128×29 |
 | `logo-tads-magenta.png` | T-Mobile Advertising Solutions, light bar | 280×64 | 140×32 |
 
-Each is served at 2× its display size so it stays sharp on retina screens.
+Each is served at roughly 2× its display size so it stays sharp on retina screens.
+
+The combined lockup exists in white only. On a light header bar it would be
+invisible, so use a dark bar with it, or switch the header to the two-logo
+split layout.
 
 Base URL, set as `ASSET_HOST` in `editor-light.html`:
 
